@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">   
+</head>
+
+<body>
+    <div class="wrapper">
+        <main>
+            <div class="overlay">
+                <nav class="navbar">
+                    <img src="./public/logo.png" alt="">
+                    <div class="links">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                        </ul>
+                    </div>
+                    <button><a href="./signup.html">SignUp</a></button>
+                </nav>
+                <div class="text">
+                    <h2>Find Your Perfect Home Today</h2>
+                    <p>Explore a wide range of homes, apartments, and commercial properties tailored to your needs.</p>
+                    <div class="buttonspairs">
+                        <button id="btn1">Search Listings</button>
+                        <button id="btn2">Get Started</button>
+                    </div>
+                </div>
+                <div class="socialmedia">
+                    <a href="https://www.facebook.com/"><img src="./public/facebook.png" alt=""></a>
+                    <a href="https://www.x.com"><img src="./public/xicon.png" alt=""></a>
+                    <a href="https://www.instagram.com"><img src="./public/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </main>
+        <div class="page1">
+            <div class="filters">
+                <label for="filter" style="font-style: italic; font-weight: 600;">Search By :-</label>
+                <input type="text" placeholder="Location">
+                <label for="price" style="font-style: italic; font-weight: 400;">Select price range</label>
+                <select name="price range">
+                    <option value="">Up to 5 lac</option>
+                    <option value="">Up to 10 lac</option>
+                    <option value="">Up to 15 lac</option>
+                    <option value="">Up to 25 lac</option>
+                    <option value="">Up to 50 lac</option>
+                    <option value="">Up to 70 lac</option>
+                </select>
+                <label for="Options for virtual tour" style="font-style: italic; font-weight: 400;">What are you looking
+                    for</label>
+                <select name="virtual tour">
+                    <option value="Home">Homes</option>
+                    <option value="Offices">Offices</option>
+                    <option value="Offices">Both</option>
+                </select>
+            </div>
+            <div class="propertydetails">
+                <div class="productdivs">
+                    <div class="productinfo">
+                        <div class="top">
+                            <img src="./public/house1.jpg" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>Property Name</h3>
+                            <p style="font-style: italic;"><span style="font-weight: 600;">Address :</span> Lorem ipsum,
+                                dolor sit amet consectetur adipisicing.</p>
+                            <p><span style="font-weight: 600;">Price :</span> 5 lac</p>
+                        </div>
+                    </div>
+                    <div class="productinfo">
+                        <div class="top">
+                            <img src="./public/house2.jpg" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>Property Name</h3>
+                            <p style="font-style: italic;"><span style="font-weight: 600;">Address :</span> Lorem ipsum,
+                                dolor sit amet consectetur adipisicing.</p>
+                            <p><span style="font-weight: 600;">Price :</span> 5 lac</p>
+                        </div>
+                    </div>
+                    <div class="productinfo">
+                        <div class="top">
+                            <img src="./public/office1.jpg" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>Property Name</h3>
+                            <p style="font-style: italic;"><span style="font-weight: 600;">Address :</span> Lorem ipsum,
+                                dolor sit amet consectetur adipisicing.</p>
+                            <p><span style="font-weight: 600;">Price :</span> 5 lac</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="productdivs">
+                    <div class="productinfo">
+                        <div class="top">
+                            <img src="./public/house3.jpg" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>Property Name</h3>
+                            <p style="font-style: italic;"><span style="font-weight: 600;">Address :</span> Lorem ipsum,
+                                dolor sit amet consectetur adipisicing.</p>
+                            <p><span style="font-weight: 600;">Price :</span> 5 lac</p>
+                        </div>
+                    </div>
+                    <div class="productinfo">
+                        <div class="top">
+                            <img src="./public/office2.jpg" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>Property Name</h3>
+                            <p style="font-style: italic;"><span style="font-weight: 600;">Address :</span> Lorem ipsum,
+                                dolor sit amet consectetur adipisicing.</p>
+                            <p><span style="font-weight: 600;">Price :</span> 5 lac</p>
+                        </div>
+                    </div>
+                    <div class="productinfo">
+                        <div class="top">
+                            <img src="./public/office3.jpg" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>Property Name</h3>
+                            <p style="font-style: italic;"><span style="font-weight: 600;">Address :</span> Lorem ipsum,
+                                dolor sit amet consectetur adipisicing.</p>
+                            <p><span style="font-weight: 600;">Price :</span> 5 lac</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="productdivs">
+                    <div class="productinfo">
+                        <div class="top">
+                            <img src="./public/house4.jpg" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>Property Name</h3>
+                            <p style="font-style: italic;"><span style="font-weight: 600;">Address :</span> Lorem ipsum,
+                                dolor sit amet consectetur adipisicing.</p>
+                            <p><span style="font-weight: 600;">Price :</span> 5 lac</p>
+                        </div>
+                    </div>
+                    <div class="productinfo">
+                        <div class="top">
+                            <img src="./public/office4.jpg" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>Property Name</h3>
+                            <p style="font-style: italic;"><span style="font-weight: 600;">Address :</span> Lorem ipsum,
+                                dolor sit amet consectetur adipisicing.</p>
+                            <p><span style="font-weight: 600;">Price :</span> 5 lac</p>
+                        </div>
+                    </div>
+                    <div class="productinfo">
+                        <div class="top">
+                            <img src="./public/house5.jpg" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>Property Name</h3>
+                            <p style="font-style: italic;"><span style="font-weight: 600;">Address :</span> Lorem ipsum,
+                                dolor sit amet consectetur adipisicing.</p>
+                            <p><span style="font-weight: 600;">Price :</span> 5 lac</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page2">
+            <h1>Cities where we are currently operating in</h1>
+            <div class="cities">
+                <div class="c1">
+                    <img src="./public/mumbai.jpg" alt="Mumbai">
+                    <p>Mumbai</p>
+                </div>
+                <div class="c2">
+                    <img src="./public/banglore.jpg" alt="Banglore">
+                    <p>Banglore</p>
+                </div>
+                <div class="c3">
+                    <img src="./public/pune.jpg" alt="Pune">
+                    <p>Pune</p>
+                </div>
+                <div class="c4">
+                    <img src="./public/hydrabad.jpg" alt="Hyderabad">
+                    <p>Hyderabad</p>
+                </div>
+                <div class="c5">
+                    <img src="./public/kolkata.jpg" alt="Kolkata">
+                    <p>Kolkata</p>
+                </div>
+                <div class="c6">
+                    <img src="./public/rajasthan.jpg" alt="Rajasthan">
+                    <p>Rajasthan</p>
+                </div>
+                <div class="c7">
+                    <img src="./public/telengana.jpg" alt="Telangana">
+                    <p>Telangana</p>
+                </div>
+            </div>
+            <div class="virtualtour">
+                <h2 style="text-decoration: underline;">Sample Virtual Models</h2>
+                <p style="font-size: 1.2em; font-style: italic;">The sample models here to display properties 3d images
+                    for better user experience</p>
+                <div class="vdiv">
+                    <img src="./public/h3d1.png" alt="v1">
+                    <img src="./public/h3d2.png" alt="v2">
+                </div>
+                <button>View More</button>
+            </div>
+        </div>
+        <footer>
+            <div class="sections">
+                <div class="section1">
+                    <h3>Explore</h3>
+                    <p>Home</p>
+                    <p>Property Listings</p>
+                    <p>About Us</p>
+                    <p>Blog</p>
+                </div>
+                <div class="section2">
+                    <h3>Services</h3>
+                    <p>Buy a Property</p>
+                    <p>Sell a Property</p>
+                    <p>Rent a Property</p>
+                    <p>Property Management</p>
+                </div>
+                <div class="section3">
+                    <h3>Get in touch</h3>
+                    <p>Lorem, ipsum.</p>
+                    <p>123 Main Street, City, State, ZIP</p>
+                    <p>📞 Phone: +1 (123) 456-7890</p>
+                    <p>✉️ Email: info@[agencyname].com</p>
+                </div>
+                <div class="section4">
+                    <h3>Follow on us</h3>
+                    <a href="https://www.facebook.com">Facebook</a>
+                    <a href="https://www.instagram.com">Instagram</a>
+                    <a href="https://www.linkedin.com">LinkedIn</a>
+                    <a href="https://www.x.com">Twitter</a>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright© 2024 Lorem, ipsum dolor. All rights reserved.
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

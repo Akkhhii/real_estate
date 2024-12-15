@@ -1,0 +1,125 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+}
+
+html, body {
+height : 100%;
+width: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 29, 51);
+    /* background: url(https://images.unsplash.com/photo-1558336154-73d7d243ae9e?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-size: cover;
+    gap: 5em;
+    font-family: "Schibsted Grotesk", serif;
+}
+
+.main{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    text-align: center;
+    padding: 2em 4em;
+    /* border-radius: 1em; */
+    box-shadow: 0  0 20px rgb(255, 255, 255);
+    border: 1px solid white;
+    background-color: #ffffffcc;
+    color: rgb(0, 0, 0);
+    border-radius: 0.5em;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+form{
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+form input{
+    padding: 1em 2em;
+    font-style: italic;
+    border-radius: 1em;
+    /* border: none; */
+    border-width: 1px;
+    outline: none;
+    border:none;
+}
+
+form textarea{
+    width: 100%;
+    height: 8em;
+    padding: 1em 1em;
+    font-style: italic;
+    border-radius: 1em;
+}
+
+button{
+  padding: 0.8em;
+  font-size: 0.8em;
+  font-weight: 600;
+  background-color: royalblue;
+  color: white;
+  border-radius: 0.5em; 
+  border: none;
+}
+
+.navbar{
+    background: #ebebeb;
+    position: absolute;
+    top: 0em;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.5em;
+    /* color: white; */
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .main{
+        width: 45%;
+        height: 45%;
+        gap: 2em;
+    }
+
+    form input{
+        padding: 0.5em 2em;
+    }
+    
+}
+@media (min-width:300px) and (max-width:430px){
+    .main{
+        width: 80%;
+        height:50%;
+        gap: 2em;
+        font-size: 0.8em;
+    }
+    .navbar{
+        font-size: 0.8em;
+    }
+
+    button{
+        font-size: 1em;
+        padding: 1em 0em;
+    }
+}
